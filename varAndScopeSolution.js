@@ -28,7 +28,7 @@ greetingFunction(true); //Should return "hi!" and "hello!" on separate lines
 console.log(message); //Should return "hello world!"
 
 if (true) {
-    var message = "goodbye"; //set to a string
+    var message = "goodbye!"; //set to a string
 }
 
 //DO NOT change this line
