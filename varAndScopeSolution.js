@@ -8,16 +8,16 @@
 */
 
 // Global scope
-var message = "hello world"; //set to the correct string
+var message = "hello world!"; //set to the correct string
 
 function greetingFunction(saySomethingElse) {
   // Function scope
-  var message = "hi"; //set to the correct string
+  var message = "hi!"; //set to the correct string
   console.log(message); 
 
   if (saySomethingElse) {
     // Block scope
-    let message = "hello"; //set to a string
+    let message = "hello!"; //set to a string
     console.log(message); 
   }
 }
